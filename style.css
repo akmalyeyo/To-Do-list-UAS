@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    background: blue;
+    width: 320px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.2);
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 6px 10px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
